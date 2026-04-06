@@ -136,3 +136,23 @@ button {
   border-radius: 50%;
   cursor: pointer;
 }
+
+@media (max-width: 600px) {
+  .container {
+    width: 95%;
+    max-width: none;
+    padding: 10px;
+  }
+
+  body {
+    font-size: 14px;
+  }
+
+  .notebook {
+    min-height: 300px;
+  }
+
+  input {
+    width: 70%;
+  }
+}
