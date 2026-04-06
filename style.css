@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #e8f5e9;
+  color: #2e7d32;
+}
+
+.container {
+  max-width: 500px;
+  margin: auto;
+  padding: 50px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 5px;
+}
+
+/* Date + Days */
+#dateDayRow {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.days span {
+  margin: 0 4px;
+  padding: 3px 6px;
+  border-radius: 6px;
+}
+
+.today {
+  background: #81c784;
+  color: white;
+}
+
+/* Quote */
+#quote {
+  font-family: 'Pacifico', cursive;
+  font-size: 18px;
+  margin: 15px 0;
+}
+
+/* Notebook */
+.notebook {
+  background: repeating-linear-gradient(
+    to bottom,
+    #e8f5e9 0px,
+    #e8f5e9 34px,
+    #a5d6a7 35px
+  );
+  border-left: 3px solid #66bb6a;
+  padding: 5px 10px;
+  text-align: left;
+  min-height: 300px;
+}
+
+/* Tasks */
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  line-height: 35px;   
+  height: 35px;        /* EXACT MATCH */
+}
+
+.task-left {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Checkbox */
+.checkbox {
+  width: 14px;
+  height: 14px;
+  border: 2px solid #66bb6a;
+  border-radius: 4px;
+  cursor: pointer;
+  position: relative;
+}
+
+.checkbox.checked::after {
+  content: "✔";
+  font-size: 10px;
+  position: absolute;
+  left: 1px;
+  top: -10px;
+}
+
+/* Completed */
+.completed {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+/* Delete */
+.delete {
+  cursor: pointer;
+  font-size: 18px;
+  opacity: 0.6;
+}
+
+.delete:hover {
+  opacity: 1;
+}
+
+/* Input */
+.inputBox {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+input {
+  padding: 8px;
+  width: 60%;
+  border-radius: 8px;
+  border: 1px solid #a5d6a7;
+}
+
+button {
+  margin-left: 5px;
+  border: none;
+  background: #66bb6a;
+  color: white;
+  padding: 10px 10px;
+  border-radius: 50%;
+  cursor: pointer;
+}
