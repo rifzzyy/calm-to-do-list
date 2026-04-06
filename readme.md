@@ -80,6 +80,11 @@ Designed with a clean green theme to provide a calm and focused daily planning e
 
 ---
 
+## 🌿 Screenshots
+<img width="1366" height="768" alt="Screenshot 2026-04-06 6 12 29 PM" src="https://github.com/user-attachments/assets/0c2f1ee0-fa01-4789-8369-3eb5d4b403a2" />
+
+---
+
 ## 🎯 Purpose
 
 This project is designed to:
